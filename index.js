@@ -1,6 +1,6 @@
 // Code your solution here
 const findMatching = (driversArray, string) => {
-  return driversArray.filter(n => n.toLowerCase() === string.toLowerCase())
+  return driversArray.filter(n => n.toLowerCase() === string.toLowerCase())  //returns the matching list of drivers. The function should be case insensitive.
 }
 
 const fuzzyMatch = (driversArray, string)=> {
