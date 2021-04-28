@@ -9,5 +9,5 @@ const fuzzyMatch = (driversArray, string) => {
 }
 
 const matchName = (driversArray, string) => {
-return driversArray.filter (n => n.name === string)     //return each element whose name property matches the provided string argument
+  return driversArray.filter (n => n.name === string)     //return each element whose name property matches the provided string argument
 }
