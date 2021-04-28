@@ -4,9 +4,8 @@ const findMatching = (driversArray, string) => {
 }
 
 const fuzzyMatch = ()=> {
-return 
+return
 }
 const matchName = ()=> {
 
 }
-
