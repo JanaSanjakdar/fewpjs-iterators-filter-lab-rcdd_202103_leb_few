@@ -4,7 +4,7 @@ const findMatching = (driversArray, string) => {
 }
 
 const fuzzyMatch = (driversArray, string)=> {
-return driversArray.filter(n => n.slice(0,string.length)===string)
+return driversArray.filter(n => n.slice(0,string.length)===string)    //returns all drivers whose names begin with the provided letters
 }
 const matchName = (driversArray, string)=> {
 return driversArray.filter (n => n.name === string)
