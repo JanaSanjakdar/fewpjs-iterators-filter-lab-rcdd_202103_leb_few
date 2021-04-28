@@ -3,7 +3,7 @@ const findMatching = (DriversArray, string) => {
   return DriversArray.filter(n => n.toLowerCase() === string.toLowerCase())
 }
 
-const fuzzy Match = ()=> {
+const fuzzyMatch = ()=> {
 
 }
 const matchName = ()=> {
