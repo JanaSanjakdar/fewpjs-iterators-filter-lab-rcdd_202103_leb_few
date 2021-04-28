@@ -1,11 +1,12 @@
 // Code your solution here
-const findMatching = (DriversArray, string) => {
-  return DriversArray.filter(n => n.toLowerCase() === string.toLowerCase())
+const findMatching = (driversArray, string) => {
+  return driversArray.filter(n => n.toLowerCase() === string.toLowerCase())
 }
 
 const fuzzyMatch = ()=> {
-
+return 
 }
 const matchName = ()=> {
 
 }
+
